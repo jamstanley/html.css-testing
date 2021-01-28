@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.main-container {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.842);
+}
+
+.phone-container {
+    height: 700px;
+    width: 80%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+/* the samsung phone section */
+
+
+/* the samsung phone section */
+
+
+/* the samsung phone section */
+
+.Sphone {
+    background-color: rgb(32, 32, 32);
+    height: 625px;
+    width: 315px;
+    margin: 50px 30px 30px 170px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(43, 41, 41);
+    border-top: solid rgba(65, 63, 63, 0.801);
+    border-bottom: solid rgb(87, 85, 85);
+}
+
+.scamera {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid rgba(65, 63, 63, 0.664);
+    margin: 4px;
+    border-right: solid rgba(255, 255, 255, 0.829);
+}
+
+.scam {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(19, 18, 18, 0.637);
+    height: 215px;
+    width: 130px;
+    border-radius: 25px 0PX 25PX 0px;
+    margin-left: 1px;
+    border-left: solid rgba(128, 128, 128, 0.877);
+    border-right: solid rgba(128, 128, 128, 0.911);
+}
+
+.stwocamera .camera {
+    margin: 5px;
+}
+
+.slight {
+    background-color: rgb(204, 204, 153);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: solid gray 1px;
+    margin-left: 15px;
+    padding: 1px;
+}
+
+.smic {
+    background-color: rgb(226, 226, 14);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.slight-camera-mic {
+    display: flex;
+    flex-direction: column;
+    margin-left: -9px;
+    margin-top: 9px;
+}
+
+.scamera1 {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid rgba(22, 22, 22, 0.664);
+    border-right: solid rgba(255, 255, 255, 0.575);
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.scamera1 .sball {
+    margin: 18%;
+}
+
+.redball {
+    background-color: rgb(194, 84, 84);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.sthreecamera {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.sball {
+    background-color: rgba(147, 147, 206, 0.432);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: solid rgba(5, 5, 5, 0.753) 8px;
+    margin: 30% 30% 30% 30%;
+}
+
+
+/* THIS IS THE END OF THE SAMSUNG SECTION */
+
+
+/* THIS IS THE END OF THE SAMSUNG SECTION */
+
+
+/* THIS IS THE END OF THE SAMSUNG SECTION */
+
+
+/* THIS IS THE END OF THE SAMSUNG SECTION */
+
+
+/* THIS IS THE END OF THE SAMSUNG SECTION */
+
+.iphone {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(64, 66, 63);
+    height: 600px;
+    width: 310px;
+    margin: 70px 30px 30px 70px;
+    border-radius: 40px;
+    border-bottom: solid rgba(128, 128, 128, 0.911);
+    border-top: solid rgba(128, 128, 128, 0.911);
+    box-shadow: 5px 5px 20px rgb(43, 41, 41);
+}
+
+.cam {
+    background-color: rgba(19, 18, 18, 0.637);
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-left: solid rgba(128, 128, 128, 0.877);
+    border-right: solid rgba(128, 128, 128, 0.911);
+}
+
+.camera {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: solid rgba(65, 63, 63, 0.664);
+}
+
+.twocamera .camera {
+    margin: 5px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: large;
+    color: rgba(240, 255, 240, 0.479);
+    margin-top: 270px;
+    margin-left: 110px;
+}
+
+.cam {
+    display: flex;
+    flex-direction: row;
+}
+
+.twocamera {
+    display: flex;
+    flex-direction: column;
+}
+
+.ball {
+    background-color: rgba(147, 147, 206, 0.432);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: solid rgba(5, 5, 5, 0.753) 8px;
+    margin: 30% 30% 30% 30%;
+}
+
+.light-camera-mic {
+    display: flex;
+    flex-direction: column;
+    margin-left: -9px;
+    margin-top: 9px;
+}
+
+.light {
+    background-color: rgb(204, 204, 153);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: solid gray 1px;
+}
+
+.mic {
+    background-color: rgb(24, 24, 23);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.p-botton {
+    height: 70px;
+    width: 2px;
+    background-color: gray;
+    border-radius: 3px 0px 0px 3px;
+    margin-left: -2px;
+    background-color: rgb(64, 66, 63);
+}
+
+.vu-botton {
+    height: 120px;
+    width: 2px;
+    background-color: gray;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: 310px;
+    margin-top: -85px;
+    background-color: rgb(64, 66, 63);
+}
+
+.s-botton {
+    height: 20px;
+    width: 3px;
+    background-color: gray;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: 310px;
+    margin-top: -150px;
+    background-color: rgb(64, 66, 63);
+}
+
+.img {
+    height: 100px;
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 75px;
+}
